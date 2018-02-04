@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/Ethan/Documents/Visual Studio 2015/Projects/ConwaysGameOfLife/ConwaysGameOfLife/Content/Courier New.spritefont</SourceFile>
+  <SourceTime>2017-04-10T13:42:02.7529497-05:00</SourceTime>
+  <DestFile>C:/Users/Ethan/Documents/Visual Studio 2015/Projects/ConwaysGameOfLife/ConwaysGameOfLife/Content/bin/Windows/Courier New.xnb</DestFile>
+  <DestTime>2017-08-14T01:14:29.5688681-05:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2017-05-16T08:15:34-05:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2017-05-16T08:15:34-05:00</ProcessorTime>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

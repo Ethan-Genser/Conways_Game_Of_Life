@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/Ethan/Documents/Visual Studio 2015/Projects/ConwaysGameOfLife/ConwaysGameOfLife/Content/Buttons/Pause.png</File>
+    <File>C:/Users/Ethan/Documents/Visual Studio 2015/Projects/ConwaysGameOfLife/ConwaysGameOfLife/Content/Buttons/Play.png</File>
+    <File>C:/Users/Ethan/Documents/Visual Studio 2015/Projects/ConwaysGameOfLife/ConwaysGameOfLife/Content/Buttons/Restart.png</File>
+    <File>C:/Users/Ethan/Documents/Visual Studio 2015/Projects/ConwaysGameOfLife/ConwaysGameOfLife/Content/Buttons/Speed_10.png</File>
+    <File>C:/Users/Ethan/Documents/Visual Studio 2015/Projects/ConwaysGameOfLife/ConwaysGameOfLife/Content/Buttons/Speed_2.png</File>
+    <File>C:/Users/Ethan/Documents/Visual Studio 2015/Projects/ConwaysGameOfLife/ConwaysGameOfLife/Content/Buttons/Speed_30.png</File>
+    <File>C:/Users/Ethan/Documents/Visual Studio 2015/Projects/ConwaysGameOfLife/ConwaysGameOfLife/Content/Buttons/Speed_5.png</File>
+    <File>C:/Users/Ethan/Documents/Visual Studio 2015/Projects/ConwaysGameOfLife/ConwaysGameOfLife/Content/Buttons/Speed_P.png</File>
+    <File>C:/Users/Ethan/Documents/Visual Studio 2015/Projects/ConwaysGameOfLife/ConwaysGameOfLife/Content/Cursor2.png</File>
+    <File>C:/Users/Ethan/Documents/Visual Studio 2015/Projects/ConwaysGameOfLife/ConwaysGameOfLife/Content/Cell.png</File>
+    <File>C:/Users/Ethan/Documents/Visual Studio 2015/Projects/ConwaysGameOfLife/ConwaysGameOfLife/Content/Courier New.spritefont</File>
+    <File>C:/Users/Ethan/Documents/Visual Studio 2015/Projects/ConwaysGameOfLife/ConwaysGameOfLife/Content/Buttons/Exit.png</File>
+    <File>C:/Users/Ethan/Documents/Visual Studio 2015/Projects/ConwaysGameOfLife/ConwaysGameOfLife/Content/Background.png</File>
+  </SourceFiles>
+</SourceFileCollection>

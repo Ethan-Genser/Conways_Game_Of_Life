@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GenserSprites</name>
+    </assembly>
+    <members>
+        <member name="T:GenserSprites.AdvancedSprite">
+            <summary>
+            A Sprite that can be animated using a spritesheet.
+            Created by: Ethan Genser
+            </summary>
+        </member>
+        <member name="M:GenserSprites.AdvancedSprite.#ctor(Microsoft.Xna.Framework.Vector2,System.Single,System.Int32,System.Int32)">
+            <summary>
+            Default Constructor
+            </summary>
+            <param name="position"></param>
+            <param name="animationSpeed"></param>
+            <param name="spriteSheetLength"></param>
+        </member>
+        <member name="M:GenserSprites.AdvancedSprite.#ctor(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Color,System.Single,System.Int32,System.Int32)">
+            <summary>
+            Constructor overload with color
+            </summary>
+            <param name="position"></param>
+            <param name="color"></param>
+            <param name="animationSpeed"></param>
+            <param name="spriteSheetLength"></param>
+        </member>
+        <member name="M:GenserSprites.AdvancedSprite.Update(Microsoft.Xna.Framework.GameTime)">
+            <summary>
+            Update
+            </summary>
+            <param name="gameTime"></param>
+        </member>
+        <member name="M:GenserSprites.AdvancedSprite.LoadContent(System.String)">
+            <summary>
+            Loading Content
+            </summary>
+            <param name="assetLocation"></param>
+        </member>
+        <member name="M:GenserSprites.AdvancedSprite.Draw">
+            <summary>
+            Drawing
+            </summary>
+        </member>
+        <member name="M:GenserSprites.AdvancedSprite.Animate(Microsoft.Xna.Framework.GameTime)">
+            <summary>
+            Animation
+            </summary>
+            <param name="gameTime"></param>
+        </member>
+        <member name="T:GenserSprites.Camera">
+            <summary>
+            Used to move all objects on screen except the player.
+            </summary>
+        </member>
+        <member name="T:GenserSprites.Sprite">
+            <summary>
+            Used to draw simple textures to the screen and is that base for the Sprite class-tree.
+            Created by: Ethan Genser
+            </summary>
+        </member>
+        <member name="M:GenserSprites.Sprite.#ctor(Microsoft.Xna.Framework.Vector2)">
+            <summary>
+            Base Constructor
+            </summary>
+            <param name="position"></param>
+        </member>
+        <member name="M:GenserSprites.Sprite.#ctor(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Color)">
+            <summary>
+            Overload Constructor
+            </summary>
+            <param name="position"></param>
+            <param name="color"></param>
+        </member>
+        <member name="M:GenserSprites.Sprite.LoadContent(System.String)">
+            <summary>
+            Content Loading
+            </summary>
+            <param name="assetLocation"></param>
+        </member>
+        <member name="M:GenserSprites.Sprite.Update">
+            <summary>
+            Update
+            </summary>
+        </member>
+        <member name="M:GenserSprites.Sprite.Draw">
+            <summary>
+            Drawing
+            </summary>
+        </member>
+        <member name="T:GenserSprites.HighControlSprite">
+            <summary>
+            A sprite who's values can be changed from external classes.
+            Created by: Ethan Genser
+            </summary>
+        </member>
+        <member name="M:GenserSprites.HighControlSprite.#ctor(Microsoft.Xna.Framework.Vector2)">
+            <summary>
+            Base Constructor
+            </summary>
+            <param name="position"></param>
+        </member>
+        <member name="M:GenserSprites.HighControlSprite.#ctor(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Color)">
+            <summary>
+            Overload Constructor
+            </summary>
+            <param name="position"></param>
+            <param name="color"></param>
+        </member>
+        <member name="M:GenserSprites.HighControlSprite.MoveUp(System.Int32)">
+            <summary>
+            Translation Up by Factor
+            </summary>
+            <param name="factor"></param>
+        </member>
+        <member name="M:GenserSprites.HighControlSprite.MoveDown(System.Int32)">
+            <summary>
+            Translation Down by Factor
+            </summary>
+            <param name="factor"></param>
+        </member>
+        <member name="M:GenserSprites.HighControlSprite.MoveLeft(System.Int32)">
+            <summary>
+            Translation Left by Factor
+            </summary>
+            <param name="factor"></param>
+        </member>
+        <member name="M:GenserSprites.HighControlSprite.MoveRight(System.Int32)">
+            <summary>
+            Translation Right by Factor
+            </summary>
+            <param name="factor"></param>
+        </member>
+        <member name="M:GenserSprites.HighControlSprite.FadeIn(System.Byte)">
+            <summary>
+            Alpha fades in by Factor
+            </summary>
+            <param name="factor"></param>
+        </member>
+        <member name="M:GenserSprites.HighControlSprite.FadeOut(System.Byte)">
+            <summary>
+            Alpha fades out by Factor
+            </summary>
+            <param name="factor"></param>
+        </member>
+    </members>
+</doc>
